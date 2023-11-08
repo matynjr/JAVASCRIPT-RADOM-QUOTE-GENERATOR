@@ -3,8 +3,41 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+    border: 10px solid #f4d1ae;
     width: 95%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
+    margin: 50px auto;
+}
+button{
+    font-size: 2rem;
+    padding: 10px 30px;
+    background: #195859;
+    border: 2px solid #f4d1ae;
+    border-radius: 5px;
+}
+.quotes{
+    border:1px solid #000;
+    width: 900px;
+    height: 450px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border:10px solid #f4d1ae;
+}
+.quotes p{
+    font-size: 1.5rem;
+}
+.quotes p, .quotes h3{
+font-size: 1.5rem;
+}
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+        }
 }
